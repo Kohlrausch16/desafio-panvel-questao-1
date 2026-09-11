@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-lista-compras
+
+  database:
+      url: jdbc:h2:mem:lista_compras_db
+      username: sa
+      password:
+      driver-class-name: org.h2.Drive
